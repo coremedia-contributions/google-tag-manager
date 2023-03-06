@@ -3,7 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.coremedia.blueprint</groupId>
+  <parent>
+    <groupId>com.coremedia.blueprint</groupId>
+    <artifactId>cae.extensions</artifactId>
+    <version>1-SNAPSHOT</version>
+    <relativePath>../../../../apps/cae/modules/extensions/pom.xml</relativePath>
+  </parent>
+
   <artifactId>extensions.google-tag-manager</artifactId>
   <version>1-SNAPSHOT</version>
   <packaging>pom</packaging>

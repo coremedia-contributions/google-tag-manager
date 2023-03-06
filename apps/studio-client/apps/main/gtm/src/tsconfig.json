@@ -13,10 +13,10 @@
   },
   "references": [
     {
-      "path": "../../../blueprint-forms/src"
+      "path": "../../../../../../../../../apps/studio-client/apps/main/blueprint-forms/src"
     },
     {
-      "path": "../../csf/src"
+      "path": "../../../../../../../../../apps/studio-client/apps/main/extensions/csf/src"
     }
   ]
 }
