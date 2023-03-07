@@ -5,7 +5,11 @@
 
 This extension allows to easily set up the required Google Tag Manager script by creating a Google Tag Manager setting and linking it to a channel.
 
+![Google Tag Manager Settings](docs/images/google-tag-manager-settings.png)
+
 The Templates found in the module `gtm-template` are used to render the script tag.
+
+![Google Tag Manager Script](docs/images/google-tag-manager-script.png)
 
 ## Installation
 
