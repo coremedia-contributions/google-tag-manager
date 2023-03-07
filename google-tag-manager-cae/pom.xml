@@ -4,8 +4,9 @@
 
   <parent>
     <groupId>com.coremedia.blueprint</groupId>
-    <artifactId>extensions.google-tag-manager</artifactId>
+    <artifactId>cae.extensions</artifactId>
     <version>1-SNAPSHOT</version>
+    <relativePath>../../../../apps/cae/modules/extensions/pom.xml</relativePath>
   </parent>
 
   <artifactId>google-tag-manager-cae</artifactId>
