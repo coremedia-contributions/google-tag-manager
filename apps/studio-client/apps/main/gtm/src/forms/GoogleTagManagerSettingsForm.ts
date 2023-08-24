@@ -24,7 +24,6 @@ class GoogleTagManagerSettingsForm extends CustomSettingsForm {
     const this$ = this;
     super(ConfigUtils.apply(Config(GoogleTagManagerSettingsForm, {
       title: "Google Tag Manager",
-      itemId: "gtm-settings",
       items: [
         Config(DisplayField, { cls: "csf-banner gtm-settings-banner" }),
 
