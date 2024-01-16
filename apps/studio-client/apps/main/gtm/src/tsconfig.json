@@ -16,7 +16,7 @@
       "path": "../../../../../../../../../apps/studio-client/apps/main/blueprint-forms/src"
     },
     {
-      "path": "../../../../../../../../../apps/studio-client/apps/main/extensions/csf/src"
+      "path": "../../../../../../../csf/apps/studio-client/apps/main/custom-settings-forms/src"
     }
   ]
 }
