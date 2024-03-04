@@ -24,19 +24,16 @@
       <version>${project.version}</version>
     </dependency>
 
-    <dependency>
-      <groupId>com.coremedia.blueprint.base</groupId>
-      <artifactId>bpbase-cae-api</artifactId>
-    </dependency>
 
+    <!-- BLUEPRINT dependencies -->
     <dependency>
       <groupId>com.coremedia.blueprint</groupId>
       <artifactId>contentbeans</artifactId>
     </dependency>
 
     <dependency>
-      <groupId>com.coremedia.cms</groupId>
-      <artifactId>cae-viewservices</artifactId>
+      <groupId>com.coremedia.blueprint.base</groupId>
+      <artifactId>bpbase-cae-api</artifactId>
     </dependency>
 
     <dependency>
@@ -45,8 +42,42 @@
     </dependency>
 
     <dependency>
+      <groupId>com.coremedia.blueprint.base</groupId>
+      <artifactId>bpbase-settings-impl</artifactId>
+    </dependency>
+
+
+    <!-- COREMEDIA dependencies -->
+    <dependency>
+      <groupId>com.coremedia.cms</groupId>
+      <artifactId>coremedia-spring</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.coremedia.cms</groupId>
+      <artifactId>cae-viewservices</artifactId>
+    </dependency>
+
+
+    <!-- THIRD-PARTY dependencies -->
+    <dependency>
       <groupId>jakarta.inject</groupId>
       <artifactId>jakarta.inject-api</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-core</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-autoconfigure</artifactId>
     </dependency>
 
   </dependencies>

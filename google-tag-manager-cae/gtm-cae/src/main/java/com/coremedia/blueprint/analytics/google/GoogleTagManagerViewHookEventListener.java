@@ -6,12 +6,10 @@ import com.coremedia.blueprint.common.contentbeans.Page;
 import com.coremedia.objectserver.view.RenderNode;
 import com.coremedia.objectserver.view.events.ViewHookEvent;
 import com.coremedia.objectserver.view.events.ViewHookEventListener;
-
-import jakarta.inject.Inject;
 import jakarta.inject.Named;
 
-import static com.coremedia.blueprint.base.cae.web.taglib.ViewHookEventNames.VIEW_HOOK_HEAD;
 import static com.coremedia.blueprint.base.cae.web.taglib.ViewHookEventNames.VIEW_HOOK_END;
+import static com.coremedia.blueprint.base.cae.web.taglib.ViewHookEventNames.VIEW_HOOK_HEAD;
 
 @Named
 public class GoogleTagManagerViewHookEventListener implements ViewHookEventListener<Page> {
@@ -19,8 +17,11 @@ public class GoogleTagManagerViewHookEventListener implements ViewHookEventListe
   public static final String HEAD_VIEW_NAME = "head";
   public static final String BODY_VIEW_NAME = "body";
 
-  @Inject
-  private SettingsService settingsService;
+  private final SettingsService settingsService;
+
+  public GoogleTagManagerViewHookEventListener(SettingsService settingsService) {
+    this.settingsService = settingsService;
+  }
 
   @Override
   public RenderNode onViewHook(ViewHookEvent<Page> event) {
